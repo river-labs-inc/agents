@@ -80,7 +80,14 @@ The reply must:
 - Set expectations if follow-up is needed
 - Never invent product details
 
-Output the draft as a clearly formatted block the user can copy directly into Gmail.
+Output the draft inside a fenced block in this format so it's easy to copy into Gmail:
+
+```
+To: [recipient email]
+Subject: Re: [original subject]
+
+[reply body, including the configured sign-off line]
+```
 
 ### c. Output a summary
 
