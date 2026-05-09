@@ -24,14 +24,14 @@ You review every draft before anything goes out. The agent never sends on its ow
 
 ## Quick start
 
-### 1. Clone or download this folder
+### 1. Clone or download the repo
 
 ```bash
 git clone https://github.com/river-labs-inc/agents.git
 cd agents/customer-support-agent
 ```
 
-Or download the folder directly from GitHub.
+Or download the repo as a zip from the [GitHub page](https://github.com/river-labs-inc/agents) (green **Code** button → **Download ZIP**) and unzip it locally. You only need the files inside `customer-support-agent/`.
 
 ### 2. Create a Claude Project
 

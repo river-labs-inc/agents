@@ -1,6 +1,6 @@
 # Agent Memory
 
-*This document is filled in during onboarding and updated as you learn more about the user.*
+*This document is filled in during setup and updated as the user learns more about themselves and their company.*
 
 ## Who you are
 

@@ -50,7 +50,7 @@ Search the web for each of the following, one at a time:
 
 After all searches, send: "Writing your Agent Memory."
 
-Output the completed Agent Memory file below. The user will copy this into `memory/agent-memory.md` (replacing the placeholder content) and upload it to their Project Knowledge.
+Output the completed Agent Memory document below as a single fenced markdown block, ready for the user to either save as `memory/agent-memory.md` or paste directly into Project Knowledge as a text snippet titled "Agent Memory."
 
 ---
 
@@ -86,7 +86,7 @@ Ask: **"How should your support replies sound? I'd suggest professional and warm
 
 Wait for their reply. Note any adjustments.
 
-Output the completed Tone & Style file below. The user will copy this into `memory/tone-and-style.md` and upload it to their Project Knowledge.
+Output the completed Tone & Style document below as a single fenced markdown block, ready for the user to either save as `memory/tone-and-style.md` or paste directly into Project Knowledge as a text snippet titled "Tone & Style."
 
 ---
 
@@ -129,7 +129,7 @@ Wait for their reply.
 
 **If they say neither / none / no:** Ask: **"What are 3–5 questions your customers ask most often, and how do you usually answer them?"** — wait for their reply, then record the Q&A pairs.
 
-Output the completed Data Sources & FAQ file below. The user will copy this into `memory/data-sources-faq.md` and upload it to their Project Knowledge.
+Output the completed Data Sources & FAQ document below as a single fenced markdown block, ready for the user to either save as `memory/data-sources-faq.md` or paste directly into Project Knowledge as a text snippet titled "Data Sources & FAQ."
 
 ---
 
@@ -162,9 +162,9 @@ Leave blank if data sources were configured instead.]
 
 Send this closing message:
 
-> "You're set up. Upload the three files above to your Claude Project Knowledge (Project settings → Add Content):
-> - `agent-memory.md`
-> - `tone-and-style.md`
-> - `data-sources-faq.md`
+> "You're set up. Upload the three documents above to your Claude Project Knowledge — either save each as a markdown file under `memory/` and upload, or paste them in as text snippets via Project settings → Add Content. Use the names:
+> - **Agent Memory**
+> - **Tone & Style**
+> - **Data Sources & FAQ**
 >
-> Any time you want to draft replies, open a new chat in this Project and paste the contents of `prompts/scan-and-draft.md`, then either paste in your emails or say 'use Gmail connector' if you have it connected."
+> Any time you want to draft replies, open a new chat in this Project and paste the contents of `prompts/scan-and-draft.md`, then either paste your emails below it or ask me to read them via your connected Gmail / email tool."

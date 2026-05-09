@@ -1,6 +1,6 @@
 # Tone & Style
 
-*This document is filled in during onboarding based on the user's preferences.*
+*This document is filled in during setup based on the user's preferences.*
 
 ## Voice
 
