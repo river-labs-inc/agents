@@ -14,7 +14,7 @@ For each customer email in a batch:
 2. **Checks it against your FAQ.** If the customer's question confidently maps to a Q&A pair you've added to `faq.md`, the reply is marked **READY TO SEND**, in your voice, with your sign-off.
 3. **Otherwise, drafts it.** If the FAQ doesn't cover the question, the reply is marked **DRAFT (review before sending)**, with a "Worth flagging" note pointing out anything you should double-check.
 
-You stay in control: nothing leaves your machine. The agent outputs text. You decide what to send and what to edit first.
+The agent never sends anything itself. It outputs text. You decide what to send and what to edit first.
 
 ---
 
