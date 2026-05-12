@@ -7,6 +7,7 @@ Ready-to-use AI agents for Claude and other LLM platforms. Each agent folder con
 | Agent | What it does |
 |---|---|
 | [auto-responder](./auto-responder/) | Reads your inbox on a schedule, sends replies for questions covered by your knowledge base, and drafts the rest |
+| [customer-support-agent](./customer-support-agent/) | Reads your support inbox on a schedule, sends replies for customer questions covered by your knowledge base, and drafts the rest |
 
 ## How these work
 
