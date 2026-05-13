@@ -46,7 +46,6 @@ Search the web for each of the following, one at a time:
 1. `"[user_name] [company_name] [user_title]"` (public profile, LinkedIn, or mentions)
 2. `"[user_name] [company_name] background"` (professional history and context)
 3. `"[company_name] product what it does who it's for"` (company overview and ICP)
-4. `"[company_name] common customer questions"` (typical inbound support questions)
 
 After all searches, send: "Writing your Agent Memory."
 
@@ -66,10 +65,7 @@ Output the completed Agent Memory document as a single fenced markdown block, re
 ## Your company
 **Company:** [company_name]
 
-[2 to 3 sentences from research: what the company does, who the customers are, what the product does. If nothing found, note that.]
-
-## Customer support context
-[What kinds of customer questions this person typically receives based on the role and company. Write only what research actually returned. Omit this section if research returned nothing relevant.]
+[2 to 3 sentences from research: what the company does and who the customers are. If nothing found, note that.]
 ```
 
 Send one sentence summarizing what you found. No source links. If research returned nothing useful: "Didn't find much publicly. That's fine, the agent will work from what you share next."
@@ -78,11 +74,11 @@ Send one sentence summarizing what you found. No source links. If research retur
 
 ## STEP 4: Tone
 
-Ask: **"How should your customer replies sound? I'd suggest professional and warm. Direct, clear, no jargon, signed off with your first name. Want to go with that, or change anything?"**
+Ask: **"How should your customer replies sound? I'd suggest professional and warm. Want to go with that, or change anything?"**
 
 Wait for their reply. Note any adjustments.
 
-Output the completed Tone & Style document as a single fenced markdown block, ready for the user to save as `memory/tone-and-style.md` or paste into Project Knowledge as a text snippet titled "Tone & Style."
+Output the completed Tone & Style document as a single fenced markdown block, ready for the user to save as `memory/tone-and-style.md` or paste into Project Knowledge as a text snippet titled "Tone & Style." Capture only what the user actually said — don't invent extra rules.
 
 **Tone & Style output format:**
 
@@ -90,23 +86,10 @@ Output the completed Tone & Style document as a single fenced markdown block, re
 # Tone & Style
 
 ## Voice
-[e.g. "Professional and warm. Direct, no jargon, never stiff. Feels like a knowledgeable teammate."]
-
-## Do
-- Acknowledge the customer's question at the start of the reply
-- Use the customer's name if it appears in the email
-- Answer the question directly and specifically
-- Set clear expectations if something requires follow-up
-- Keep replies concise. No padding, no filler phrases.
-
-## Don't
-- Don't use corporate-speak or canned support language
-- Don't promise timelines you can't guarantee
-- Don't over-apologize. One acknowledgment is enough.
-- Don't invent answers. Flag anything you're not sure about.
+[1 to 2 sentences in the user's words, e.g. "Professional and warm. Direct, no jargon."]
 
 ## Sign-off
-[e.g. "Thanks, [first name]" or whatever the user requested]
+Thanks, [user's first name]
 ```
 
 ---
@@ -125,16 +108,6 @@ Output the completed FAQ document as a single fenced markdown block, ready for t
 # FAQ
 
 *This document is the single source of truth for what the Customer Support Agent will mark READY TO SEND. Anything in here, it answers automatically. Anything not in here gets marked DRAFT for you to review.*
-
-*Add a new Q&A pair any time you find yourself answering the same customer question twice.*
-
-## How to write a good FAQ entry
-
-- **Q** is the customer question in plain language. The agent matches on intent, not exact wording.
-- **A** is your canonical answer. The agent rewrites it to fit your tone but never changes the facts.
-- If the answer depends on the customer's specific account, order, or anything you'd need to look up, leave it out.
-
----
 
 **Q: [first question from user]**
 A: [first answer from user]

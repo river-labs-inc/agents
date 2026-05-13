@@ -54,7 +54,7 @@ Open a new chat in the Project and paste the contents of [`prompts/setup.md`](./
 **Option B: fill them manually.**
 Edit each file directly:
 - [`memory/agent-memory.md`](./memory/agent-memory.md): who you are and your company
-- [`memory/tone-and-style.md`](./memory/tone-and-style.md): voice, do/don't rules, sign-off
+- [`memory/tone-and-style.md`](./memory/tone-and-style.md): voice and sign-off
 - [`memory/faq.md`](./memory/faq.md): Q&A pairs that gate auto-replies
 
 Once filled in, upload all three to your Project's **Knowledge** (Project settings > Add Content).
@@ -85,7 +85,7 @@ auto-responder/
   system-prompt.md                paste into Claude Project Custom Instructions
   memory/
     agent-memory.md               who you are + your company context
-    tone-and-style.md             voice, do/don't rules, sign-off line
+    tone-and-style.md             voice and sign-off line
     faq.md                        Q&A pairs that gate auto-replies
   prompts/
     setup.md                      run once to walk through initial configuration
@@ -98,7 +98,7 @@ auto-responder/
 
 This repo gives you the raw files for self-hosting in a Claude Project. If you'd prefer a version that:
 
-- Runs automatically every 4 hours in the background
+- Runs automatically every hour in the background
 - Has Gmail wired up so auto-replies actually send and drafts land in Gmail Drafts
 - Notifies you in-app whenever something is auto-sent or queued for review
 
